@@ -1,4 +1,5 @@
 # Subagent-Driven Development
+[![GitHub release](https://img.shields.io/github/v/release/wan-huiyan/subagent-driven-development)](https://github.com/wan-huiyan/subagent-driven-development/releases) [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange)](https://claude.com/claude-code) [![license](https://img.shields.io/github/license/wan-huiyan/subagent-driven-development)](LICENSE) [![last commit](https://img.shields.io/github/last-commit/wan-huiyan/subagent-driven-development)](https://github.com/wan-huiyan/subagent-driven-development/commits)
 
 A Claude Code skill that executes implementation plans by dispatching fresh subagents per task with mandatory two-stage review gates (spec compliance, then code quality). Supports parallel mode for independent tasks using worktree isolation.
 
