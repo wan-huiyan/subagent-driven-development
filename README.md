@@ -1,7 +1,7 @@
 # Subagent-Driven Development
 [![GitHub release](https://img.shields.io/github/v/release/wan-huiyan/subagent-driven-development)](https://github.com/wan-huiyan/subagent-driven-development/releases) [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange)](https://claude.com/claude-code) [![license](https://img.shields.io/github/license/wan-huiyan/subagent-driven-development)](LICENSE) [![last commit](https://img.shields.io/github/last-commit/wan-huiyan/subagent-driven-development)](https://github.com/wan-huiyan/subagent-driven-development/commits)
 
-A Claude Code skill that executes implementation plans by dispatching fresh subagents per task with mandatory two-stage review gates (spec compliance, then code quality). Supports parallel mode for independent tasks using worktree isolation.
+Single-agent implementation drifts from the spec and accumulates unchecked errors across tasks. This skill dispatches a fresh subagent per task with mandatory spec and code review gates — independent tasks run in parallel with worktree isolation.
 
 > **Based on** [subagent-driven-development](https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development) from [@obra](https://github.com/obra)'s [superpowers](https://github.com/obra/superpowers) framework. Parallel mode adapted from [spawn-tasks](https://github.com/theradengai/spawn-tasks) by [@theradengai](https://github.com/theradengai).
 
