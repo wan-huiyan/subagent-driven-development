@@ -1,9 +1,18 @@
 {
   "name": "subagent-driven-development",
   "description": "Execute implementation plans by dispatching fresh subagents per task with two-stage review gates. Supports parallel mode with worktree isolation for independent tasks.",
-  "version": "1.0.0",
-  "author": { "name": "Huiyan Wan" },
+  "version": "1.1.0",
+  "author": {
+    "name": "Huiyan Wan"
+  },
   "repository": "https://github.com/wan-huiyan/subagent-driven-development",
   "license": "MIT",
-  "keywords": ["claude-code", "subagents", "code-review", "parallel-execution", "worktree", "implementation"]
+  "keywords": [
+    "claude-code",
+    "subagents",
+    "code-review",
+    "parallel-execution",
+    "worktree",
+    "implementation"
+  ]
 }
