@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wan-huiyan-subagent-driven-development",
+  "description": "Single-plugin marketplace for subagent-driven-development — Execute implementation plans with fresh subagents per task, two-stage review gates, and optional parallel mode using worktree isolation.",
+  "owner": {
+    "name": "wan-huiyan"
+  },
+  "plugins": [
+    {
+      "name": "subagent-driven-development",
+      "source": "./plugins/subagent-driven-development",
+      "description": "Execute implementation plans with fresh subagents per task, two-stage review gates, and optional parallel mode using worktree isolation.",
+      "version": "1.1.0"
+    }
+  ]
+}
