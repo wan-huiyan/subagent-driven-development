@@ -39,9 +39,15 @@ Done! 5 tasks completed, all reviews passed.
 
 ## Installation
 
-**Claude Code:**
+**Claude Code (plugin install — recommended):**
 ```bash
-# Git clone
+# Add the marketplace, then install the plugin
+claude plugin marketplace add wan-huiyan/subagent-driven-development
+claude plugin install subagent-driven-development@wan-huiyan-subagent-driven-development
+```
+
+**Claude Code (git clone):**
+```bash
 git clone https://github.com/wan-huiyan/subagent-driven-development.git ~/.claude/skills/subagent-driven-development
 ```
 
@@ -49,10 +55,10 @@ git clone https://github.com/wan-huiyan/subagent-driven-development.git ~/.claud
 ```bash
 # Per-project rule (most reliable)
 mkdir -p .cursor/rules
-# Create .cursor/rules/subagent-driven-development.mdc with SKILL.md content + alwaysApply: true
+# Copy plugins/subagent-driven-development/SKILL.md content into .cursor/rules/subagent-driven-development.mdc with alwaysApply: true
 
-# Manual global install
-git clone https://github.com/wan-huiyan/subagent-driven-development.git ~/.cursor/skills/subagent-driven-development
+# Or via npx skills CLI
+npx skills add wan-huiyan/subagent-driven-development --global
 ```
 
 ## What You Get
